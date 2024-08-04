@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.compose.ui.platform.ComposeView
+        android:id="@+id/compose_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <ImageView
+        android:id="@+id/background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:contentDescription="@string/game_background"
+        android:scaleType="centerCrop"
+        android:src="@drawable/background"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <ImageView
+        android:id="@+id/character"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="144dp"
+        android:layout_marginTop="512dp"
+        android:contentDescription="@string/character"
+        android:src="@drawable/hobbyduck1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/hospital"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="128dp"
+        android:contentDescription="@string/hospital"
+        android:src="@drawable/hospital"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+    android:id="@+id/coffeeshop"
+    android:layout_width="100dp"
+    android:layout_height="100dp"
+    android:src="@drawable/coffeeshop"
+    android:contentDescription="@string/coffee_shop"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    android:layout_marginStart="270dp"
+    android:layout_marginTop="129dp" />
+
+    <ImageView
+        android:id="@+id/convenience_store"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/convenience_store"
+        android:contentDescription="@string/convenience_store"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginStart="38dp"
+        android:layout_marginTop="315dp" />
+
+    <ImageView
+        android:id="@+id/myhouse"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/myhouse"
+        android:contentDescription="@string/my_house"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginStart="270dp"
+        android:layout_marginTop="315dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

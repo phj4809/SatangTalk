@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">SatangTalk</string>
+    <string name="action_go">Go</string>
+    <string name="baking_title">Baking with Gemini</string>
+    <string name="label_prompt">Prompt</string>
+    <string name="prompt_placeholder">Provide a recipe for the baked goods in the image</string>
+    <string name="image1_description">Cupcake</string>
+    <string name="image2_description">Cookies</string>
+    <string name="image3_description">Cake</string>
+    <string name="results_placeholder">(Results will appear here)</string>
+    <string name="game_background">게임 배경</string>
+    <string name="character">캐릭터</string>
+    <string name="hospital">병원</string>
+    <string name="coffee_shop">커피숍</string>
+    <string name="convenience_store">편의점</string>
+    <string name="my_house">내 집</string>
+    <string name="hospital_background">병원 배경</string>
+    <string name="hospital_owner">병원 주인</string>
+    <string name="send">Send</string>
+    <string name="sendbutton">보내기</string>
+    <string name="error_message">오류 발생: %1$s</string>
+</resources>
