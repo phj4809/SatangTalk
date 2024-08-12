@@ -16,7 +16,7 @@
             android:name=".HospitalActivity"
             android:exported="false" />
         <activity
-            android:name=".ui.theme.HospitalActivity"
+            android:name=".HospitalActivity"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
